@@ -59,7 +59,7 @@ export default {
   margin-bottom: 10px;
 }
 .slider-2 img{
-  margin-top: 50px;
-  margin-left: 80px;
+ 
+  margin-left: 40px;
 }
 </style>

@@ -2,12 +2,18 @@
   <NavBar></NavBar>
   <SliderSite></SliderSite>
   <ClipSite></ClipSite>
+  <FieldSite></FieldSite>
+  <BlogSite></BlogSite>
+  <FooterSite></FooterSite>
 </template>
 
 <script>
 import NavBar from './components/NavBar.vue'
 import SliderSite from './components/SliderSite.vue'
 import ClipSite from './components/ClipSite.vue'
+import FieldSite from './components/FieldSite.vue'
+import BlogSite from './components/BlogSite.vue'
+import FooterSite from './components/FooterSite.vue'
 
 export default {
   name: 'App',
@@ -15,6 +21,9 @@ export default {
     NavBar,
     SliderSite,
     ClipSite,
+    FieldSite,
+    BlogSite,
+    FooterSite,
   }
 }
 </script>
